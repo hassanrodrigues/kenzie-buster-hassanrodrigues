@@ -137,7 +137,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "users.User"
 
 SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(hours=30),
+    "ACCESS_TOKEN_LIFETIME": timedelta(hours=5),
 }
 
 REST_FRAMEWORK = {
